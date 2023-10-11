@@ -86,3 +86,95 @@ header{
     font-weight: 500;
     
 }
+.second-header a:hover{
+    color: rgb(86, 159, 159);
+}
+
+.ads{
+    width: 80%;
+    height: 370px;
+    /* border: 2px solid red; */
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(https://cdn.shopify.com/s/files/1/0310/9469/files/online-advertising-banner.png?v=1473105773);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.prod{
+    width: 80%;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+
+}
+.product{
+    width: 350px;
+    height: 280px;
+    /* border: 2px solid red; */
+    outline: 1px solid #f3f3f3;
+    box-shadow: 1px 2px 1px #f3f3f3;
+    margin-left: 15px;
+    cursor: pointer;
+
+    
+}
+
+.imgarea{
+    height: 170px;
+    width: 100%;
+    /* border-color: 2px solid red; */
+}
+
+.product img{
+display: block;
+width: 50%;
+margin-left: auto;
+margin-right: auto;
+height: 100%;
+}
+
+.product h3{
+    margin-left: 20px;
+    font-size: 25px;
+    margin-top: 20px;
+}
+.product p{
+    margin-left: 20px;
+
+}
+
+.carousel slide{
+    width: 80%;
+    height: 200px;
+    margin-left: 20px;
+}
+
+.above-footer{
+    width: 100%;
+    height: 200px;
+    border: 2px solid red;
+    margin-top: 50px;
+    margin-left: 0;
+    left: 0;
+
+}
+.footer-containers{
+    display: flex;
+   
+  
+}
+.together{
+    display: flex;
+    padding: 30px;
+}
+
+.app-img{
+    display: flex;
+   
+}
+
