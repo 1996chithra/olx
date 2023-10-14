@@ -15,6 +15,15 @@ header{
     background-color: #f3f3f3;
 
 }
+
+/* .checkbtn
+
+    font-size: 30px;
+    float: right;
+    line-height: 80px;
+ } */
+
+
 .logo{
     width: 45px;
     margin-left: 100px;
@@ -23,6 +32,18 @@ header{
 .logo img{
     width: 100%;
 }
+
+.dropdown-toggle{
+    font-weight: 500;
+}
+
+#log {
+    font-weight: 600;
+    text-underline-offset: 5px;
+    
+}
+
+
 .inputbox1{
     display:flex;
     align-items:center;
@@ -227,7 +248,6 @@ margin-top: 5%;
 }
 
 .btnlast{
-    padding: 10px;
     cursor: pointer;
     font-size: 22px;
     font-weight: 500;
@@ -238,30 +258,5 @@ margin-top: 5%;
        margin-bottom: 50px;
 }
 
-.popup{
-    width: 400px;
-    background: grey;
-    border-radius: 6px;
-    position: absolute;
-    top: 0;
-    left: 50%;
-    text-align: center;
-    padding: 0 30px 30px;
-    color: white;
-    transform: translate(-50%, -50%) scale(0.1);
-    visibility: hidden;
-}
 
-.popup button{
-    width: 30px;
-    height: 30px;
-    align-items: center;
-    cursor: pointer;
-}
-
-.open-popup{
-    top: 50%;
-    visibility: visible;
-    transform: translate(-50%, -50%) scale(1);
-
-}
+@media screen and (max-width:)

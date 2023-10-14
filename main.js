@@ -1,10 +1,8 @@
-let popup = document.getElementById("popup");
 
-function openPopup(){
-            popup.classList.add("open-popup");
+          function changeclr(){
+
+            document.getElementById("color").style.background="red"
+            alert("Page is loading...")
+         
+
           }
-
-          function closePopup(){
-            popup.classList.remove("open-popup");
-          }
-
