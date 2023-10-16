@@ -117,7 +117,7 @@ font-weight: 700;
 
 .ads{
     width: 80%;
-    height: 370px;
+    height: 200px;
     /* border: 2px solid red; */
     margin-left: auto;
     margin-right: auto;
@@ -127,8 +127,8 @@ font-weight: 700;
     background-position: center;
 }
 
-.ads h3{
-    color: red;
+.heading h3{
+    /* margin-left: 100px; */
 }
 
 .prod{
@@ -266,3 +266,14 @@ margin-top: 5%;
        margin-bottom: 50px;
 }
 
+@media only screen and (max-width: 412px){
+    .heading{
+        text-align: center;
+        margin-top: 0;
+    }
+   .col{
+    width: 100%;
+    display: block;
+   }
+
+}
