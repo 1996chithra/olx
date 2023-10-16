@@ -127,6 +127,10 @@ font-weight: 700;
     background-position: center;
 }
 
+.ads h3{
+    color: red;
+}
+
 .prod{
     width: 80%;
     height: 500px;
